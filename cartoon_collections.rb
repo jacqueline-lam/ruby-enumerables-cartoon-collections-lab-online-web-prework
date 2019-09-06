@@ -1,4 +1,3 @@
-
 def roll_call_dwarves(names)
   names.each_with_index { |name,idx| puts "#{(idx + 1).to_s}. #{name}" }
 end
