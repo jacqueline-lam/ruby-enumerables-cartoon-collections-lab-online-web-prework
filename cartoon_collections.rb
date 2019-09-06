@@ -7,7 +7,7 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  calls.each_with_index do |word, idx|
+  calls.include? do |word, idx|
     if word.length >  4
       return true
       break
